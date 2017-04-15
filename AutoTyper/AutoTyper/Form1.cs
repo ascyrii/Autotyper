@@ -110,7 +110,7 @@ namespace AutoTyper
                     double randomness = new Random().NextDouble() * 1.1;
                     randomness = randomness * 1000;
                     timer1.Interval = Convert.ToInt32(intBox.Text) * 1000 + Convert.ToInt32(randomness);
-                    MessageBox.Show(timer1.Interval.ToString());
+                    //MessageBox.Show(timer1.Interval.ToString());
                     timer1.Start();
                     started = true;
                     startBtn.Text = "Stop (F12)";
